@@ -1,0 +1,140 @@
+$PHYSICS
+ KTTAU=0
+
+ LDIFY = .TRUE.
+ LDIFZ=.TRUE.
+ LTHOUL=.TRUE.
+ LTHOULFIT = .FALSE.
+ FGRY = 1.0D0
+ FGRZ = 1.0D0
+ DT_GS = 0.1D0         
+ XMIN = 1.0D-3         
+ YMIN = 1.0D-3         
+ GRTOL = 2.0D-7        
+ NITER_GS = 10         
+ ILAMBDA = 4
+
+ LNEWS=.TRUE.
+ LSNU=.TRUE.         
+                       
+ NITER1=2
+ NITER2=40
+ NITER3=0
+ NITER4=0
+
+ LSEMIC=.FALSE.      
+ DPENV=1.00
+ LOVSTC=.TRUE.        
+ LOVSTE=.FALSE.        
+ LOVSTM=.FALSE.        
+ 
+ LEXCOM=.FALSE.         
+ 
+ LENVG=.TRUE.         
+ ATMSTP=0.0050           
+ ENVSTP=0.0050         
+                      
+ LCOREL=.TRUE.
+ LHAFT=.TRUE.
+ LNULOS1=.TRUE.
+ LNULOS2=.TRUE.
+
+ LROT=.FALSE.
+
+ LFREE_EOS=.FALSE.
+ IEOS=1,101,0
+ LOPALE=.FALSE.
+ LDH=.TRUE.         
+ ETADH0 = -1.0D0
+ ETADH1 = 1.0D0
+ 
+ LCORE=.FALSE.                                
+ FCORE=1.0
+ MCORE=1              
+ 
+ LNEWCP=.FALSE.        
+ ANEWCP='   '          
+ ATMP='REL'            
+ XNEWCP=13             
+ 
+ FCORR0=0.8D0            
+ FCORRI=0.1D0          
+                                             
+ LNEW0=.FALSE.
+ TRIDT=1.0D-3
+ TRIDL=8.0D-3          
+ 
+ ATMERR=1.0D-5 
+ ATMMAX=0.05D0         
+ ATMMIN=0.015D0           
+ ATMBEG=0.015D0
+ ATMD0=1.0D-10         
+ ENVERR=1.0D-5        
+ ENVMAX=0.05D0         
+ ENVMIN=0.015D0           
+ ENVBEG=0.015D0            
+ STOLR0=1.0D-7         
+ IMAX=11               
+ NUSE=7      
+ 
+ HTOLER(1,1)=6.0D-5
+ HTOLER(2,1)=4.5D-5    
+ HTOLER(3,1)=3.0D-5    
+ HTOLER(4,1)=9.0D-5    
+ HTOLER(5,1)=3.0D-5    
+ HTOLER(1,2)=9.0D4
+ HTOLER(2,2)=5.0D4    
+ HTOLER(3,2)=5.0D4    
+ HTOLER(4,2)=5.0D10
+ HTOLER(5,2)=2.5D-6
+ 
+ SHELLTOL(1)=1.0D-10
+ SHELLTOL(2)=1.0D-2
+ SHELLTOL(3)=5.0D-2
+ SHELLTOL(4)=1.0D0         
+ SHELLTOL(5)=1.0D0       
+ SHELLTOL(6)=1.0D0     
+ SHELLTOL(7)=0.0D0         
+ SHELLTOL(8)=1.0D-2        
+ SHELLTOL(9)=1.0D-2      
+ SHELLTOL(10)=1.0D-2
+ SHELLTOL(11)=1.0D-2  
+ SHELLTOL(12)=0.1D0
+
+ ATIME(1)=1.0D-4
+ ATIME(2)=1.0D-3       
+ ATIME(3)=3.0D-2        
+ ATIME(4)=2.0D-2
+ ATIME(5)=3.0D-2      
+ ATIME(6)=1.5D-3
+ ATIME(7)=1.0D-1      
+ ATIME(8)=2.0D-2
+ ATIME(9)=2.0D-2     
+ ATIME(10)=2.0D-2      
+ ATIME(11)=2.0D-2
+ ATIME(13)=1.05d0
+ LPTIME=.TRUE.        
+ 
+ TCUT(1)=6.5D0           
+ TCUT(2)=6.5D0           
+ TCUT(3)=6.82D0          
+ TCUT(4)=7.73D0          
+ TCUT(5)=7.5D0           
+ TSCUT=6.0D0             
+ TENV0=3.0D0             
+ TENV1=9.0D0             
+ TGCUT=6.9D0             
+                       
+ OPTOL=1.0D-8
+ CMIN = 1.0D-20        
+ ABSTOL = 1.0D-6
+ RELTOL = 1.0D-5
+ KEMMAX = 50
+
+ CLSUN = 3.828D33
+ CRSUN=6.957D10
+
+ SStandard=0.997543,1.02913,1.03704,0.965517,1.47273,0.478916,1.12766,1.0,1.0/
+ ,1.0,1.0,1.0,1.0,1.0,1.01083,0.876543,1.075,0.625,1.21795
+
+$END

@@ -1,0 +1,93 @@
+ $CONTROL
+
+ DESCRIP(1) = '[Fe/H]=0.0'
+ DESCRIP(2) = 'Meridith alpha cen' 
+
+ NUMRUN=2
+
+ KINDRN(1)=2
+ LFIRST(1)=.TRUE.
+ NMODLS(1)=2
+ CMIXLA(1)=1.81D0
+ RSCLX(1)=0.694D0
+ RSCLZ(1)=0.026
+
+ KINDRN(2)=1
+ LFIRST(2)=.FALSE.
+ NMODLS(2)=7000
+ CMIXLA(2)=1.81D0
+ ENDAGE(2)=20D9
+
+ LOPAL95=.TRUE.
+ FO95COBIN='/home/meridith/dsep3/opac/OPAL/OPAL_GS98.bin'
+
+ LALEX95=.TRUE.
+ ZALEX=0.026
+
+ MIX='GS98'
+ IAFE=0
+
+ LZAMS=.FALSE. 
+ LHB  =.FALSE.
+ LTRACK=.TRUE.
+ LISO=.TRUE.
+ LCORR=.TRUE.          
+ LRWSH=.FALSE.        
+ 
+ OPECALEX(1) = '/home/meridith/dsep3/opac/ferg04/gs98.0.tron'
+ OPECALEX(2) = '/home/meridith/dsep3/opac/ferg04/gs98.1.tron'
+ OPECALEX(3) = '/home/meridith/dsep3/opac/ferg04/gs98.2.tron'
+ OPECALEX(4) = '/home/meridith/dsep3/opac/ferg04/gs98.35.tron'
+ OPECALEX(5) = '/home/meridith/dsep3/opac/ferg04/gs98.5.tron'
+ OPECALEX(6) = '/home/meridith/dsep3/opac/ferg04/gs98.7.tron'
+ OPECALEX(7) = '/home/meridith/dsep3/opac/ferg04/gs98.8.tron'
+ OPECALEX(8) = '/home/meridith/dsep3/opac/ferg04/gs98.9.tron'
+
+ $END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
